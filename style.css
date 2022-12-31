@@ -1,0 +1,71 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(180deg,black, rgb(70, 64, 64));
+    font-size: 1.6em;
+    margin-left: 20%;
+    margin-right:20%;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+   
+  }
+
+  #container {
+    width: 100vw;
+  }
+  
+  #images {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    
+  }
+  
+  input {
+    width: 100%;
+    height: 30px;
+    text-align:center;
+    font-size: .8em;
+    margin-top:15px;
+    border-radius: 10px;
+    padding: 25px;
+    
+  }
+  
+  #buttonBox {
+    text-align:center;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: black;
+    border-color: bisque;
+  }
+  
+  button{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 16px; 
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    
+  }
+
+  #text {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  
